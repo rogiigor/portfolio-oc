@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base: '/https://github.com/rogiigor/'
+  base: '/https://github.com/rogiigor/portfolio-oc/'
 })
