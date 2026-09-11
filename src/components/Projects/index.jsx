@@ -9,12 +9,7 @@ const Projects = () => {
             <div className='projects-container'>
                 {projectsData.map((project, index) => (
                     <div key={`${project}-${index}`}>
-                        <ProjectCard cover={project.cover}
-                                     title={project.title}
-                                     name={project.name}
-                                     description={project.description}
-                                     skills={project.skills}
-                        />
+                        <ProjectCard project={project} />
                     </div>   
                 ))}
             </div>

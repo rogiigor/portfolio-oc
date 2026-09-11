@@ -1,0 +1,14 @@
+$border-color: black;
+$background-color: lightblue;
+$background-color2: rgb(132, 136, 135);
+$background-color-animation: rgb(52, 54, 54);
+
+.custom-button {
+    border: 2px solid $background-color-animation;
+    padding: 8px;
+    background-color: $background-color-animation;
+    &:hover {
+        background-color: $background-color2;
+        border: 2px solid bisque;
+    }
+}

@@ -1,21 +1,22 @@
+$background-color: #213547;
+
 .projects {
-    background-color: lightgray;
-    color: black;
+    color: #213547;
 
     &-title {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.8rem;
+        font-size: 2rem;
+        font-family: 'Georgia', sans-serif;
     }
 
     &-container {
-        background-color: #F2F2F2;
+        background-color: $background-color;
         display: flex;
         flex-direction: column;
         gap: 30px;
-        // grid-template-rows: repeat(2, 1fr);
-        // border-radius: 20px;
-        // column-gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }

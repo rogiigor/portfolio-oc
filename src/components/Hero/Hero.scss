@@ -5,7 +5,14 @@
     flex-direction: column;
     padding: 32px;
     border-bottom: 3px solid rgb(187, 185, 185);
-    background-color: lightgray;
+    background-color: #213547;
+
+
+    &-name,
+    &-about {
+        color: bisque;
+        font-family: 'Georgia', san-serif
+    }
 
     &-description {
         font-size: 1.4rem;
