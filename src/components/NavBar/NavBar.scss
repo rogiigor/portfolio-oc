@@ -1,0 +1,27 @@
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  &__links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+
+    & a {
+        color: bisque;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-family: 'Georgia', san-serif;
+
+        &:hover {
+            color: #ddd;
+        }
+    }
+}
+}
+

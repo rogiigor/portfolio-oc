@@ -45,7 +45,7 @@ export const projectsData = [
     {
         title: 'Simon Says',
         name: 'Game-Building Project',
-        description: ['Test ability to use HTML, CSS, and JavaScript to create dynamic page.',
+        description: ['Test the ability to use HTML, CSS, and JavaScript to create dynamic web page that matches design.',
             'Given starter source code complete game and implement front end.',
             'Working on game algorithm and making it work for complete solution.'
         ],

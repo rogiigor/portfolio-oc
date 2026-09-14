@@ -4,14 +4,16 @@ $background-color2: rgb(132, 136, 135);
 $background-color-animation: rgb(52, 54, 54);
 
 .project-card {
+    width: 1300px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+
     display: flex;
     gap: 40px;
 
     border-radius: 12px;
     padding: 1.5rem;
     border: 6px solid $border-color;
-    margin-left: 30%;
-    margin-right: 20%;
     background-color: $background-color;
     
     &__cover-image {
