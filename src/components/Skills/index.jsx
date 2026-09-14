@@ -9,7 +9,7 @@ const Skills = () => {
     return ( 
         <div className='skills'>
             <div className='skills-dev'>
-                <h2 className='skills-dev__title'>Development and Deployment Skills</h2>
+                <h2 className='skills-dev__title'>Development Skills</h2>
                 {devSkills.map((item, index) => (
                     <div key={`${item}-${index}`}>
                         <SkillItem cover={item.cover} name={item.name} />
@@ -17,7 +17,7 @@ const Skills = () => {
                 ))}
             </div>
             <div className='skills-utils'>
-                <h2 className='skills-utils__title'>Development and Deployment Utilities</h2>
+                <h2 className='skills-utils__title'>Development Utilities</h2>
                 {utilities.map((item, index) => (
                     <div key={`${item}-${index}`}>
                         <SkillItem cover={item.cover} name={item.name} />

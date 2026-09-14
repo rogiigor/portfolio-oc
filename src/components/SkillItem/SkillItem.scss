@@ -9,9 +9,12 @@ $border-color: darkblue;
     border-radius: 12px;
     &-image {
       width: 40px;
-      height: auto; 
+      height: auto;
+      flex-shrink: 0;
     }
     &-name {
+        min-width: 0;
+        overflow-wrap: anywhere;
         font-weight: bold;
         white-space: pre-line;
     }
