@@ -1,20 +1,25 @@
 import './Hero.scss'
+
 import NavBar from '../NavBar'
+import TypeWriter from '../TypeWriter'
+
 import viteConfig from '../../assets/viteConfig.png'
 
 const Hero = () => {
     return (
         <div className='hero'>
             <NavBar />
-            <h1 className='hero-name'>Igor Vish</h1>
+            <h1 className='hero-name'>
+                <TypeWriter text='Igor Vish'/>
+            </h1>
             <div className='hero__cover'>
                 <img src={viteConfig} alt='vite config' className='hero__cover-image'/>
             </div>
             <h2 className='hero-about' id='about'>About</h2>
             <p className='hero-description'>
-                <span>
+                 <span>
                     Hi, I'm <strong>Igor Vish</strong>. Through 9+ months of rigorous, project-driven training<br /> 
-                    at OpenClassrooms, I have built real-world applications using JavaScript, React, and Node.js.<br /> 
+                    at OpenClassrooms, I have built real-world applications using JavaScript, React, and Node.js.<br />
                     I am ready to bring production-grade code to your development team.
                 </span>
             </p>
