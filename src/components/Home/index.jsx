@@ -2,6 +2,7 @@ import './Home.scss'
 import Hero from '../Hero'
 import Skills from '../Skills'
 import Projects from '../Projects'
+import Contact from '../Contact'
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero />
             <Skills />
             <Projects />
+            <Contact />
         </>
     )
 }

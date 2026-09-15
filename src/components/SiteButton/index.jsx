@@ -1,7 +1,6 @@
 import './SiteButton.scss'
 
 const SiteButton = ({name, url}) => {
-    console.log("url ", url)
     const handleNavigation = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
