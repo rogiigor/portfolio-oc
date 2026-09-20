@@ -10,5 +10,6 @@ $background-color-animation: rgb(52, 54, 54);
     &:hover {
         background-color: $background-color2;
         border: 2px solid bisque;
+        cursor: pointer;
     }
 }

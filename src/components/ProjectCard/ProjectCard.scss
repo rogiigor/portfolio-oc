@@ -15,6 +15,21 @@ $background-color-animation: rgb(52, 54, 54);
     padding: 1.5rem;
     border: 6px solid $border-color;
     background-color: $background-color;
+
+    @media (max-width: 1100px) {
+        width: calc(100% - 40px);
+        max-width: 1300px;
+
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    @media (max-width: 800px) {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
     
     &__cover-image {
         width: 600px;
@@ -24,6 +39,13 @@ $background-color-animation: rgb(52, 54, 54);
         border-radius: 20px;
         filter: brightness(80%);
         display: block;
+
+        @media (max-width: 1100px) {
+            width: 100%;
+            height: auto;
+            max-height: 500px;
+            object-fit: cover;
+        }
     }
 
     &__description {
@@ -60,6 +82,10 @@ $background-color-animation: rgb(52, 54, 54);
             display: flex;
             margin: 10px;
             gap: 30px;
+        }
+
+        @media (max-width: 1100px) {
+             width: 100%;
         }
     }
 
