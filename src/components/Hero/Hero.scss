@@ -32,6 +32,10 @@
             transform: scale(1.15);
             background-color: rgb(132, 136, 135);
             color:bisque;
+
+            @media (max-width: 800px) {
+                transform: scaleY(1.15);
+            }
         }
 
         @media (max-width: 800px) {
