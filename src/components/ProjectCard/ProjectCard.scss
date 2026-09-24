@@ -76,6 +76,7 @@ $background-color-animation: rgb(52, 54, 54);
             display: flex;
             gap: 20px;
             margin-left: 20px;
+            flex-wrap: wrap;
         }
 
         &-live {
