@@ -64,6 +64,7 @@ $background-color-animation: rgb(52, 54, 54);
         }
 
         &-skill {
+            font-variant-numeric: lining-nums;
             transition: transform 600ms;
             &:hover {
                 transform: scale(1.1);
